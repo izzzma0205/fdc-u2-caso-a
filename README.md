@@ -6,8 +6,9 @@
 Pregunta de ingeniería: *¿la sobrecarga de red en microservicios incrementa la latencia respecto a un monolito?*
 
 ## Integrantes
-- [Nombre completo] — [No. de control]
-- [Nombre completo] — [No. de control]
+- Moreno Rogel Erick - 22090700
+- Avilez Delgado Ismael - 22090589
+- Bautista Díaz Martín Antonio - 22090601
 
 ## Estructura del repositorio
 ```
