@@ -1,0 +1,162 @@
+{
+  "n_original": {
+    "Monolito": 250,
+    "Microservicios": 250
+  },
+  "nulos": 0,
+  "outliers": [
+    {
+      "grupo": "Monolito",
+      "n_antes": 250,
+      "limite_inf": -5.79,
+      "limite_sup": 250.65,
+      "n_outliers": 10,
+      "n_despues": 240
+    },
+    {
+      "grupo": "Microservicios",
+      "n_antes": 250,
+      "limite_inf": -12.36,
+      "limite_sup": 260.49,
+      "n_outliers": 7,
+      "n_despues": 243
+    }
+  ],
+  "n_limpio": {
+    "Monolito": 240,
+    "Microservicios": 243
+  },
+  "N_limpio": 483,
+  "descriptivos": {
+    "Monolito": {
+      "n": 240.0,
+      "media": 123.19964688345613,
+      "mediana": 117.0118310100147,
+      "desv_est (s)": 43.52915023043235,
+      "varianza (s²)": 1894.7869197835487,
+      "asimetria": 0.6162694114405989,
+      "curtosis (exceso)": -0.15865158656193135
+    },
+    "Microservicios": {
+      "n": 243.0,
+      "media": 124.61439485709371,
+      "mediana": 113.96882473237402,
+      "desv_est (s)": 48.20408191494676,
+      "varianza (s²)": 2323.6335132628974,
+      "asimetria": 0.7698169839370196,
+      "curtosis (exceso)": -0.09373718996446812
+    }
+  },
+  "tcl": [
+    {
+      "n": 5,
+      "media de medias": 123.82692682571921,
+      "SE empírico": 20.45363580405402,
+      "SE teórico (s/√n)": 20.526423182295535,
+      "diferencia relativa (%)": -0.35460332077872736,
+      "asimetría de medias": 0.2870707522034069,
+      "Shapiro-Wilk p": 4.888864528758249e-05
+    },
+    {
+      "n": 15,
+      "media de medias": 123.64935928701111,
+      "SE empírico": 11.495033625842158,
+      "SE teórico (s/√n)": 11.850935949798501,
+      "diferencia relativa (%)": -3.0031579401320987,
+      "asimetría de medias": 0.21636723205885405,
+      "Shapiro-Wilk p": 0.01148374293034423
+    },
+    {
+      "n": 30,
+      "media de medias": 123.64808623646493,
+      "SE empírico": 8.514403925901476,
+      "SE teórico (s/√n)": 8.379877173509959,
+      "diferencia relativa (%)": 1.605354703966024,
+      "asimetría de medias": 0.08774538578611085,
+      "Shapiro-Wilk p": 0.029284087169582196
+    },
+    {
+      "n": 60,
+      "media de medias": 123.74898957499465,
+      "SE empírico": 6.054991733445797,
+      "SE teórico (s/√n)": 5.9254679748992505,
+      "diferencia relativa (%)": 2.185882348790326,
+      "asimetría de medias": 0.20700338218739758,
+      "Shapiro-Wilk p": 0.014149241956200615
+    }
+  ],
+  "tcl_meta": {
+    "K": 1000,
+    "N_global": 483,
+    "s_global": 45.89847757054037,
+    "media_global": 123.91141449752224,
+    "asimetria_global": 0.7123509576390834
+  },
+  "ic_media": {
+    "90%": {
+      "t crítico": 1.648021095544492,
+      "IC t (inf)": 120.46959982494796,
+      "IC t (sup)": 127.35322917009653,
+      "amplitud t": 6.883629345148563,
+      "z crítico": 1.6448536269514722,
+      "IC z (inf)": 120.47621493437092,
+      "IC z (sup)": 127.34661406067357
+    },
+    "95%": {
+      "t crítico": 1.964897880913484,
+      "IC t (inf)": 119.80781753816186,
+      "IC t (sup)": 128.01501145688263,
+      "amplitud t": 8.207193918720776,
+      "z crítico": 1.959963984540054,
+      "IC z (inf)": 119.81812174905876,
+      "IC z (sup)": 128.0047072459857
+    },
+    "99%": {
+      "t crítico": 2.5860677462074486,
+      "IC t (inf)": 118.51053344252145,
+      "IC t (sup)": 129.31229555252304,
+      "amplitud t": 10.80176211000159,
+      "z crítico": 2.5758293035489004,
+      "IC z (inf)": 118.53191594925136,
+      "IC z (sup)": 129.29091304579313
+    }
+  },
+  "ic_media_se": 2.088453043398171,
+  "levene": {
+    "W": 1.8419292738748558,
+    "p": 0.17536147587023163,
+    "varianzas_iguales": true
+  },
+  "ic_diferencia": {
+    "metodo": "Student (varianza combinada)",
+    "diff": 1.4147479736375885,
+    "se": 4.180828770018562,
+    "gl": 481.0,
+    "inf": -6.800196608439636,
+    "sup": 9.629692555714813,
+    "cero_en_ic": true,
+    "alt_inf": -6.79516535086141,
+    "alt_sup": 9.624661298136587
+  },
+  "prueba": {
+    "alpha": 0.05,
+    "t": 0.3383893604500112,
+    "gl": 481.0,
+    "p_unilateral": 0.3676087225405761,
+    "p_bilateral": 0.7352174450811522,
+    "t_critico": 1.6480276934903653,
+    "rechaza_H0": false
+  },
+  "efecto": {
+    "delta_teorico": 5.5,
+    "potencia_teorico": 0.370256126328418,
+    "n_req_teorico": 864,
+    "sp": 45.9406962938346,
+    "d": 0.030795092102847657,
+    "potencia_obs": 0.09561656307356725,
+    "delta_relevante": 10.0,
+    "potencia_relevante": 0.7714561145957675,
+    "n_req_relevante": 262,
+    "n_req_obs": 13040
+  }
+}
